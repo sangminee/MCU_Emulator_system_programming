@@ -47,13 +47,13 @@ Loader가 결정하는데 결국 OS를 어떻게 만듦에 따라서 달라진�
 
 
 
-# review
+<!-- # review
 1) ALU: 인스트럭션의 순서를 결정/ 인스트럭션 자체를 실행
  => AC, status register과 연결되어 있음
 2) CU: 인스트럭션의 순서를 바꿔주는 역할
  => PC, status, IR register과 연결되어 있음
  => PC값을 변경시켜줌
-3) Memory: MAR, MBR register과 연결되어 동작
+3) Memory: MAR, MBR register과 연결되어 동작 -->
 
 
 # SP (System Programming) instruction set
