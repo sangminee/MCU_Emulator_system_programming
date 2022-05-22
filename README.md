@@ -10,18 +10,22 @@
 
 - 구성 : CPU(Register, CU, ALU)/ Memory/ Loader(OS)
 
-<!-- # MCU Emulator 구현
+<!--  # MCU Emulator 구현
 컴파일러는 Source Code를 총 2번 읽는다. 일단 첫 번째 컴파일러는 정의된 것만을 읽어서
 Symbol Table을 만든다. 정의란 실행되는 코드가 아닌 실행되는 코드를 지원하기 위한 것이
 다. 두 번째 컴파일러는 CPU가 읽을 수 있는 instruction Source Code를 exe로 만들어야
-한다. 이때 이 exe의 header에는 Data size Segment와 Code Segment size가 들어간다. 바이너리코드는 OS에 따라 달라진다. 따라서 우리가 만든 exe 코드의 header부분을 작성하
+한다. 이때 이 exe의 header에는 Data size Segment와 Code Segment size가 들어간다. 
+<br><br>
+바이너리코드는 OS에 따라 달라진다. 따라서 우리가 만든 exe 코드의 header부분을 작성하
 는 것도 loader 즉 OS가 하는 것이고, 실제로 메모리에 올라온 코드를 어떻게 올릴지도
-Loader가 결정하는데 결국 OS를 어떻게 만듦에 따라서 달라진다는 말이다. 메모리에 exe를 어떻게 쓰느냐는 100% OS(source Code를 OS의 loader가 exe로 변환해
+Loader가 결정하는데 결국 OS를 어떻게 만듦에 따라서 달라진다는 말이다. 
+<br><br>
+메모리에 exe를 어떻게 쓰느냐는 100% OS(source Code를 OS의 loader가 exe로 변환해
 주기 때문)가 관여를 하지만, 실제로 우리가 설계한 instruction set은 하드웨어에 종속적으로
 만들어 졌다. 결국 CPU는 메모리 등과 다 연결되어 있어야 되기 때문에 CPU만 디자인 하면
-안딘다. 즉 CPU만 가지고는 아무것도 하지 못한다는 뜻이다. 따라서 이것을 MCU라고 한다. -->
+안딘다. 즉 CPU만 가지고는 아무것도 하지 못한다는 뜻이다. 따라서 이것을 MCU라고 한다.  -->
 
-# CPU
+# review
 1) ALU: 인스트럭션의 순서를 결정/ 인스트럭션 자체를 실행
  => AC, status register과 연결되어 있음
 2) CU: 인스트럭션의 순서를 바꿔주는 역할
