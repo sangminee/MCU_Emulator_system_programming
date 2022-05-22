@@ -1,3 +1,3 @@
-# 3-2_SystemProgramming_MCU_Emulator
+# MCU(Micro Controller Unit) Emulator
 
 CPU + Memory + Loader
